@@ -27,7 +27,7 @@ export default function Page() {
             todo
           </Button>
         </Link>
-        <Link href={"catigories"}>
+        <Link href={"/catcategories"}>
           <Button variant="outlined" size="large">
             catigories
           </Button>
