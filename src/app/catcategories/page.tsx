@@ -170,7 +170,7 @@ const categories = () => {
                     </Tooltip>
                     <Tooltip
                       title="delete"
-                      onClick={() => deleteCategory(el.id)}
+                      onClick={() => deleteCategory(String(el.id))}
                     >
                       <IconButton color="error">
                         <Delete />

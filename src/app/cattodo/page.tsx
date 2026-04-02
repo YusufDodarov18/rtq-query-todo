@@ -102,9 +102,11 @@ const CardTodo = () => {
       handleToast("Please fill out the form completely.", "error");
     } else {
       editTodo({
-        name: editName,
-        description: editDescription,
-        id: idx,
+        newData: {
+          name: editName,
+          description: editDescription,
+          id: idx,
+        },
       });
       setIdx(null);
       setEditName("");
